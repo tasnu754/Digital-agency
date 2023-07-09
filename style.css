@@ -1,0 +1,35 @@
+*{
+    margin: 0;padding: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background: gray;
+    padding: 10px;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    font-size: 17px;
+    gap: 15px;
+    font-style: italic;
+
+}
+.banner-container{
+    height: 100vh;
+    background-image: url("/digital-agency/asset/image/background.jpg");
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+.primary{
+    color: red;
+}
+.title{
+    color: white;
+}
+
